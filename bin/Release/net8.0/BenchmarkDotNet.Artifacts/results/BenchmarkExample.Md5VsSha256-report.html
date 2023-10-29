@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>BenchmarkExample.Md5VsSha256-20231029-145736</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.13.9+228a464e8be6c580ad9408e98f18813f6407fb5a, Windows 11 (10.0.22000.2538/21H2/SunValley)
+12th Gen Intel Core i9-12900H, 1 CPU, 20 logical and 14 physical cores
+.NET SDK 8.0.100-rc.2.23502.2
+  [Host]     : .NET 8.0.0 (8.0.23.47906), X64 RyuJIT AVX2 [AttachedDebugger]
+  DefaultJob : .NET 8.0.0 (8.0.23.47906), X64 RyuJIT AVX2
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>Method</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Median</th>
+</tr>
+</thead><tbody><tr><td>Sha256</td><td>5.064 &mu;s</td><td>0.3603 &mu;s</td><td>1.039 &mu;s</td><td>4.569 &mu;s</td>
+</tr><tr><td>Md5</td><td>17.125 &mu;s</td><td>0.4440 &mu;s</td><td>1.252 &mu;s</td><td>17.319 &mu;s</td>
+</tr></tbody></table>
+</body>
+</html>

@@ -1,0 +1,5 @@
+C:\Users\ASUS\source\repos\BenchmarkExample\obj\Release\netcoreapp3.0\BenchmarkExample.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\BenchmarkExample\obj\Release\netcoreapp3.0\BenchmarkExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\BenchmarkExample\obj\Release\netcoreapp3.0\BenchmarkExample.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\BenchmarkExample\obj\Release\netcoreapp3.0\BenchmarkExample.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\BenchmarkExample\obj\Release\netcoreapp3.0\BenchmarkExample.csproj.CoreCompileInputs.cache
